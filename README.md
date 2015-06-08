@@ -24,14 +24,14 @@ You got a broken version of the rock (and you have gotten that for the last 300 
 
 The solution used to be installing an older version of busted:
 
-    $ luarocks install busted 1.11.1-1
+    $ luarocks install busted 1.11.1-2
 
 Unfortunately, this has stopped being enough. Recently [the stable version of busted was broken by a non-backwards compatible update in lua_cliargs](https://github.com/Olivine-Labs/busted/issues/391).
 
 So now, in order to get a working `busted` command, you have to install an older version of `lua_cliargs` too:
 
     $ luarocks install lua_cliargs 2.3-3
-    $ luarocks install busted 1.11.1-1
+    $ luarocks install busted 1.11.1-2
 
 I eventually grew tired of all this, so I have created this rock. It allows you to do this instead:
 
