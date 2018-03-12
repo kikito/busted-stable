@@ -2,6 +2,10 @@
 
 Easily install a stable version of [busted](http://olivinelabs.com/busted/)
 
+## Deprecated and unmaintained
+
+The problem mentioned on the "Why" section seems to have improved and installing busted is not difficult any more. This project is now *deprecated* and *unmaintained*.
+
 ## Prerequisites
 
 Install luarocks.
